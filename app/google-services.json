@@ -1,0 +1,130 @@
+{
+  "project_info": {
+    "project_number": "393006276216",
+    "project_id": "ybazzar-df992",
+    "storage_bucket": "ybazzar-df992.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:393006276216:android:4c1b44196393a2b460178d",
+        "android_client_info": {
+          "package_name": "com.app.ybazzar"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "393006276216-13k4sfn1rvl8m3dhdo1cl1ag3drem4em.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.app.ybazzar",
+            "certificate_hash": "fdc21004beea2127747e67378ec104ecd40de91d"
+          }
+        },
+        {
+          "client_id": "393006276216-1guabemi47rpfiau462okka8bqm5p9rq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCbNEwJTYuSWMsIFwL2x1RE43PBHhGEHgU"
+        },
+        {
+          "current_key": "AIzaSyAUxxDIguLpBbOdEmIXt1uD7BWcxyC3UaU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "393006276216-1guabemi47rpfiau462okka8bqm5p9rq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:393006276216:android:7c13359179e0a33360178d",
+        "android_client_info": {
+          "package_name": "com.app.ybazzardeliveryboy"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "393006276216-9tbrl1jk6ragc96ebtkcvdig0kdthhlv.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.app.ybazzardeliveryboy",
+            "certificate_hash": "fdc21004beea2127747e67378ec104ecd40de91d"
+          }
+        },
+        {
+          "client_id": "393006276216-1guabemi47rpfiau462okka8bqm5p9rq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCbNEwJTYuSWMsIFwL2x1RE43PBHhGEHgU"
+        },
+        {
+          "current_key": "AIzaSyAUxxDIguLpBbOdEmIXt1uD7BWcxyC3UaU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "393006276216-1guabemi47rpfiau462okka8bqm5p9rq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:393006276216:android:d555419485f2809e60178d",
+        "android_client_info": {
+          "package_name": "com.app.ybazzarseller"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "393006276216-dsmkv1hr6he2rtm18b3f0qdqshddjnp7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.app.ybazzarseller",
+            "certificate_hash": "fdc21004beea2127747e67378ec104ecd40de91d"
+          }
+        },
+        {
+          "client_id": "393006276216-1guabemi47rpfiau462okka8bqm5p9rq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCbNEwJTYuSWMsIFwL2x1RE43PBHhGEHgU"
+        },
+        {
+          "current_key": "AIzaSyAUxxDIguLpBbOdEmIXt1uD7BWcxyC3UaU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "393006276216-1guabemi47rpfiau462okka8bqm5p9rq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

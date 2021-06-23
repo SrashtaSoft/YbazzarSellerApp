@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/menu_home"
+        android:icon="@drawable/ic_home"
+        android:title="@string/home" />
+
+    <item
+        android:id="@+id/menu_orders"
+        android:icon="@drawable/ic_cart"
+        android:title="@string/orders" />
+
+    <item
+        android:id="@+id/menu_customers"
+        android:icon="@drawable/ic_customer"
+        android:title="@string/customers" />
+
+    <item
+        android:id="@+id/wallet_transactions"
+        android:icon="@drawable/ic_wallet"
+        android:title="@string/wallet_transactions" />
+
+    <item
+        android:id="@+id/menu_products"
+        android:icon="@drawable/ic_product"
+        android:title="@string/products" />
+
+    <item
+        android:id="@+id/menu_terms"
+        android:icon="@drawable/ic_terms"
+        android:title="@string/terms_conditions" />
+
+    <item
+        android:id="@+id/menu_policy"
+        android:icon="@drawable/ic_privacy"
+        android:title="@string/privacy_policy" />
+
+
+    <item
+        android:id="@+id/menu_logout"
+        android:icon="@drawable/ic_logout"
+        android:title="@string/logout" />
+</menu>

@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Ybazzar Seller App</string>
+
+    <!-- ************************************************************************************************************* -->
+    <!--    For privacy policy and terms and condition whatever you set words in privacy_policy and terms_conditions that words must be contain in msg_privacy_terms.Other wise app will crash-->
+    <string name="privacy_policy">Privacy Policy</string>
+    <string name="terms_conditions">Terms &amp; Conditions</string>
+    <string name="msg_privacy_terms">I have read and agree to the Privacy Policy and Terms &amp; Conditions.</string>
+    <!-- ************************************************************************************************************* -->
+
+    <!--Album String-->
+
+    <string name="album_title">Media Album</string>
+    <string name="album_all_images">All Images</string>
+    <string name="album_all_videos">All Videos</string>
+    <string name="album_all_images_videos">All Images/Videos</string>
+
+    <string name="album_ok">OK</string>
+    <string name="album_confirm">Confirm</string>
+    <string name="album_cancel">Cancel</string>
+    <string name="no_selected">Please select, first.</string>
+    <string name="album_menu_finish">Finish</string>
+    <string name="album_check">Selected</string>
+    <string name="album_item_unavailable">Unavailable</string>
+    <string name="album_take_file_unavailable">Unavailable file, please try again.</string>
+
+    <string name="album_check_image_little">Please select a image item.</string>
+    <string name="album_check_video_little">Please select a video item.</string>
+    <string name="album_check_album_little">Please select a media item.</string>
+    <plurals name="album_check_album_limit">
+        <item quantity="one">You can only select %1$d media item.</item>
+        <item quantity="other">You can only select %1$d media items.</item>
+    </plurals>
+    <plurals name="album_check_video_limit">
+        <item quantity="one">You can only select %1$d video.</item>
+        <item quantity="other">You can only select %1$d videos.</item>
+    </plurals>
+    <plurals name="album_check_image_limit">
+        <item quantity="one">You can only select %1$d image item.</item>
+        <item quantity="other">You can only select %1$d image items.</item>
+    </plurals>
+    <string name="album_loading">Loading&#8230;</string>
+    <string name="album_title_permission_failed">Permission denied</string>
+    <string name="album_permission_storage_failed_hint">No storage permission, please authorize before use.</string>
+    <string name="album_permission_camera_image_failed_hint">No Camera permission or Storage permission, please authorize before use.</string>
+    <string name="album_permission_camera_video_failed_hint">No Camera permission, Storage permission or Microphone permission, please authorize it before use.</string>
+    <string name="album_camera_image_capture">Take Picture</string>
+    <string name="album_not_found_image">No image items found</string>
+    <string name="album_not_found_album">No media items found</string>
+    <plurals name="album_check_image_limit_camera">
+        <item quantity="one">You can only select %1$d image item, can\'t use camera.</item>
+        <item quantity="other">You can only select %1$d image items, can\'t use camera.</item>
+    </plurals>
+    <plurals name="album_check_video_limit_camera">
+        <item quantity="one">You can only select %1$d video item, can\'t use camera.</item>
+        <item quantity="other">You can only select %1$d video items, can\'t use camera.</item>
+    </plurals>
+    <plurals name="album_check_album_limit_camera">
+        <item quantity="one">You can only select %1$d media item, can\'t use camera.</item>
+        <item quantity="other">You can only select %1$d media items, can\'t use camera.</item>
+    </plurals>
+
+    <string name="login">Login</string>
+    <string name="password">Password</string>
+    <string name="forgottext">Forgot password ?</string>
+    <string name="home">Home</string>
+    <string name="logout">Logout</string>
+    <string name="is_login">Login ?</string>
+    <string name="drawer_open">open</string>
+    <string name="drawer_close">close</string>
+    <string name="orders">Orders</string>
+    <string name="order_id">Order ID:</string>
+    <string name="customer_name">Customer Name</string>
+    <string name="mobile_no">Mobile No</string>
+    <string name="order_no">Order No</string>
+    <string name="order_date">Order Date :&#160;</string>
+    <string name="status">Status</string>
+    <string name="order_method">Order Method</string>
+    <string name="old_password">Old Password</string>
+    <string name="new_password">New Password</string>
+    <string name="confirm_new_password">Confirm New Password</string>
+    <string name="please_click_back_again_to_exit">Please click BACK again to exit</string>
+    <string name="change_password">Change Password</string>
+    <string name="password_required">Password required!</string>
+    <string name="enter_mobile_number">Enter Mobile Number</string>
+
+    <string name="item">Item</string>
+    <string name="logout_msg">Are you sure, You want to logout?</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="ok">OK</string>
+    <string name="order_number">Order No. :\u0020</string>
+    <string name="order_on">Ordered\u0020on\u0020</string>
+    <string name="via">Via\u0020</string>
+    <string name="no_internet_message">No internet connection !</string>
+    <string name="retry">Retry</string>
+    <string name="change_password_msg">You have to login again with updated credentials, if you are changin password.</string>
+    <string name="code">00</string>
+    <string name="forgot_message_hint">Enter registered mobile number</string>
+    <string name="recover_pass">Continue</string>
+    <string name="verify_message">Verify your registered number and reset your password. </string>
+    <string name="reset_password">Reset Password</string>
+    <string name="reset_pass_text">Reset Your Password</string>
+    <string name="sold_out_products">Sold Out Products</string>
+    <string name="low_stock_products">Low Stock Products</string>
+    <string name="wallet_transactions">Wallet Transactions</string>
+    <string name="products">Products</string>
+    <string name="delivery_boys">Delivery Boys</string>
+    <string name="search">Search</string>
+    <string name="items">Items</string>
+    <string name="delivery_charge">Delivery Charge</string>
+    <string name="tax">Tax</string>
+    <string name="promo_applied">Promo Applied</string>
+    <string name="discount">Discount</string>
+    <string name="wallet_balance1">Wallet Balance</string>
+    <string name="balance">Balance</string>
+    <string name="final_total">Final Total</string>
+    <string name="cancel">Cancel</string>
+    <string name="off">OFF</string>
+    <string name="no_data_found">No Data Found!</string>
+    <string name="sortby">Sort By</string>
+    <string name="filterby">Filter By</string>
+    <string name="start_date">Start Date</string>
+    <string name="end_date">End Date</string>
+    <string name="apply">Apply</string>
+    <string name="total_sale_title">Total Sale In Last Week</string>
+    <string name="delivered">Delivered</string>
+    <string name="shipped">Shipped</string>
+    <string name="processed">Processed</string>
+    <string name="view_details">View Details</string>
+    <string name="returned">Returned</string>
+    <string name="other_details">Other Details</string>
+    <string name="other_images">Other Images</string>
+    <string name="total">Total</string>
+    <string name="price_details">Price Details</string>
+    <string name="ordered_id">Order Id :&#160;</string>
+    <string name="order_otp">Order OTP</string>
+    <string name="name_1">Name :&#160;</string>
+    <string name="mobile_no_1">\nMobile No :&#160;</string>
+    <string name="address_1">\nAddress :&#160;</string>
+    <string name="ordered_on">Ordered on&#160;</string>
+    <string name="for_amount_on">For amount on&#160;</string>
+    <string name="tx_id">ID&#160;:&#160;</string>
+    <string name="tx_date">Date&#160;:&#160;</string>
+    <string name="tx_message">Message&#160;:&#160;</string>
+    <string name="product_name">Product Name</string>
+    <string name="type">Type</string>
+    <string name="packet">Packet</string>
+    <string name="category">Category</string>
+    <string name="sub_category">Sub Category</string>
+    <string name="loose">Loose</string>
+    <string name="product_type">Product Type</string>
+    <string name="manufacturer">Manufacturer</string>
+    <string name="made_in">Made In</string>
+    <string name="delivery_places">Delivery Places</string>
+    <string name="selected_pincodes">Selected Pincodes</string>
+    <string name="select_pincodes">Select\nPinCodes</string>
+    <string name="is_returnable">Returnable?</string>
+    <string name="return_days">Return Days</string>
+    <string name="is_cancellable">Cancelable?</string>
+    <string name="till_which_status">Till which status?</string>
+    <string name="product_detail">Product Detail</string>
+    <string name="non_veg">Non Veg</string>
+    <string name="veg">Veg</string>
+    <string name="select_product_type">Select Product Type</string>
+    <string name="measurement">Measurement</string>
+    <string name="unit">Unit</string>
+    <string name="stock">Stock</string>
+    <string name="discounted_price">Discounted Price</string>
+    <string name="original_price">Original Price</string>
+    <string name="product_variations">Product Variations</string>
+    <string name="available">Available</string>
+    <string name="sold_out">Sold Out</string>
+    <string name="city_included">City Included</string>
+    <string name="city_excluded">City Excluded</string>
+    <string name="includes_all">Included All</string>
+    <string name="received">Received</string>
+    <string name="select_tax">Select Tax</string>
+    <string name="awaiting_payment">Awaiting Payment</string>
+    <string name="title_update_order">Update Order</string>
+    <string name="msg_update_order">You want to change status of this item?</string>
+    <string name="add_product">Add Product</string>
+    <string name="update_product">Update Product</string>
+    <string name="select_image">Select Image</string>
+    <string name="select_images">Select Images</string>
+    <string name="selected_images">Selected Images</string>
+    <string name="description">Description</string>
+    <string name="remove_image">Remove Image</string>
+    <string name="remove_image_msg">You sure you want to remove image?//nOnce you confirm, You can not undone this image. </string>
+    <string name="remove_variant">Remove Variant</string>
+    <string name="remove_variant_msg">You sure you want to remove variant?//nOnce you confirm, You can not undone this variant. </string>
+    <string name="done">Done</string>
+    <string name="edit">Edit</string>
+    <string name="album_converting">Loading&#8230;</string>
+    <string name="album_thumbnail">Generating thumbnails&#8230;</string>
+    <string name="customers">Customers</string>
+    <string name="your_balance">Your Balance</string>
+    <string name="wallet_history">Wallet History</string>
+    <string name="send_withdrawal_request">Send Withdrawal Request</string>
+    <string name="send">Send</string>
+    <string name="withdrawal_amount">Withdrawal Amount</string>
+    <string name="wallet_withdrawal_request_alert">*Please note: When you send a request, Amount will deduct from wallet and If admin rejects the request, then the amount will refund in the wallet.</string>
+    <string name="message_optional">Message (Optional)</string>
+    <string name="alert_balance_limit">You can not withdraw amount more then available wallet balance!!!</string>
+    <string name="alert_enter_amount">Please enter amount!!!</string>
+    <string name="approved">Approved</string>
+    <string name="not_approved">Not Approved</string>
+    <string name="not_processed">Not Processed</string>
+    <string name="pending">Pending</string>
+    <string name="cancelled">Cancelled</string>
+
+    <string name="unit_">Unit :&#160;</string>
+    <string name="qty">Qty :&#160;</string>
+    <string name="status_">Status :&#160;</string>
+    <string name="tax_">Tax :&#160;</string>
+    <string name="tax__">Tax (%) :&#160;</string>
+    <string name="discount_">Discount(</string>
+    <string name="subtotal">Subtotal(</string>
+    <string name="price">Price(</string>
+    <string name="error_msg_product_name">Enter product name!!!</string>
+    <string name="error_msg_product_description">Please add product description!!!</string>
+    <string name="error_msg_stock">Enter Stock!!</string>
+    <string name="error_msg_pincodes">Select Pincodes!!</string>
+    <string name="error_msg_product_image">Select product image!!!</string>
+    <string name="error_msg_extra_product_image">Select extra product image!!!</string>
+</resources>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/card_shadow">
+
+    <TextView
+        android:id="@+id/txtorderid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="3dp"
+        android:textColor="@color/txt_color"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvTotalItems"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtorderid"
+        android:layout_marginStart="3dp"
+        android:layout_marginTop="@dimen/_5sdp"
+        android:textColor="@color/gray" />
+
+    <TextView
+        android:id="@+id/tvItems"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvTotalItems"
+        android:layout_marginStart="3dp"
+        android:layout_marginTop="@dimen/_5sdp"
+        android:maxLines="1"
+        android:textColor="@color/gray" />
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_1sdp"
+        android:layout_below="@id/tvItems"
+        android:layout_marginTop="@dimen/_5sdp"
+        android:background="@color/gray" />
+
+    <TextView
+        android:id="@+id/txtorderdate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/view"
+        android:layout_marginStart="3dp"
+        android:layout_marginTop="@dimen/_5sdp"
+        android:textColor="@color/gray" />
+
+
+    <TextView
+        android:id="@+id/txtorderamount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtorderdate"
+        android:layout_marginStart="3dp"
+        android:layout_marginTop="@dimen/_5sdp"
+        android:textColor="@color/txt_color"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/carddetail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="@dimen/_5sdp"
+        android:gravity="center"
+        android:padding="5dp"
+        android:text="@string/view_details"
+        android:textColor="@color/colorPrimary" />
+
+</RelativeLayout>
